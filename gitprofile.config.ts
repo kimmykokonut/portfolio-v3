@@ -17,6 +17,18 @@ const CONFIG = {
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
+      manual: {
+        projects: [
+          'kimmykokonut/Garden-guardian', 'kimmykokonut/Park-Api',
+          'kimmykokonut/myco-matrix-api',
+          'kimmykokonut/Pierre.Solution',
+          'kimmykokonut/sound-check',
+          'kimmykokonut/word-puzzle',
+          'kimmykokonut/inventory-tracker-cra-redux',
+          'kimmykokonut/HairSalon.Solution',
+          'kimmykokonut/cooking-compendium'
+        ],
+      },
     },
     external: {
       header: 'Projects',
@@ -40,18 +52,7 @@ const CONFIG = {
         }
       ],
     },
-    manual: {
-      projects: [
-        'kimmykokonut/Garden-guardian', 'kimmykokonut/Park-Api',
-        'kimmykokonut/myco-matrix-api',
-        'kimmykokonut/Pierre.Solution',
-        'kimmykokonut/sound-check',
-        'kimmykokonut/word-puzzle',
-        'kimmykokonut/inventory-tracker-cra-redux',
-        'kimmykokonut/HairSalon.Solution',
-        'kimmykokonut/cooking-compendium'
-      ],
-    },
+    
   },
   seo: {
     title: 'Portfolio of Kim Robinson',
@@ -139,7 +140,7 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'About Me',
+      //title: 'About Me',
       // conferenceName: '',
       // journalName: 'Journal Name',
       // authors: 'John Doe, Jane Smith',
@@ -167,7 +168,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
