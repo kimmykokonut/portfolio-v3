@@ -17,21 +17,9 @@ const CONFIG = {
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
-      manual: {
-        projects: [
-          'kimmykokonut/Garden-guardian', 'kimmykokonut/Park-Api',
-          'kimmykokonut/myco-matrix-api',
-          'kimmykokonut/Pierre.Solution',
-          'kimmykokonut/sound-check',
-          'kimmykokonut/word-puzzle',
-          'kimmykokonut/inventory-tracker-cra-redux',
-          'kimmykokonut/HairSalon.Solution',
-          'kimmykokonut/cooking-compendium'
-        ], 
-      },
     },
     external: {
-      header: 'My Projects',
+      header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -50,6 +38,18 @@ const CONFIG = {
             'https://raw.githubusercontent.com/kimmykokonut/sound-check/main/src/assets/page.png',
           link: 'https://sound-check.netlify.app/',
         }
+      ],
+    },
+    manual: {
+      projects: [
+        'kimmykokonut/Garden-guardian', 'kimmykokonut/Park-Api',
+        'kimmykokonut/myco-matrix-api',
+        'kimmykokonut/Pierre.Solution',
+        'kimmykokonut/sound-check',
+        'kimmykokonut/word-puzzle',
+        'kimmykokonut/inventory-tracker-cra-redux',
+        'kimmykokonut/HairSalon.Solution',
+        'kimmykokonut/cooking-compendium'
       ],
     },
   },
@@ -139,13 +139,13 @@ const CONFIG = {
   ],
   publications: [
     {
-      // title: 'Publication Title',
+      title: 'About Me',
       // conferenceName: '',
       // journalName: 'Journal Name',
       // authors: 'John Doe, Jane Smith',
-      // link: 'https://example.com',
-      // description:
-      //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      // link: 'https://example.com'
+      description:
+        'Hailing from New England with strong opinions about pizza and bagels, currently rooted in the Pacific NW.  My science background is rounded with a joy of baking, travel, and time in the nearby National forests.  I most recently completed the Epicodus full-stack programming bootcamp, honing my technical and collaborative skills.  I bring a unique perspective to the tech world with my adaptable and problem-solving nature.',
     }
   ],
   // Display articles from your medium or dev account. (Optional)
