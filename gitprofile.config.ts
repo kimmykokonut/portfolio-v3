@@ -23,7 +23,6 @@ const CONFIG = {
           'kimmykokonut/myco-matrix-api',
           'kimmykokonut/Pierre.Solution',
           'kimmykokonut/sound-check',
-          'kimmykokonut/word-puzzle',
           'kimmykokonut/inventory-tracker-cra-redux',
           'kimmykokonut/HairSalon.Solution',
           'kimmykokonut/cooking-compendium'
@@ -141,7 +140,7 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: '',
+      title: 'test',
       // conferenceName: '',
       // journalName: 'Journal Name',
       // authors: 'John Doe, Jane Smith',
