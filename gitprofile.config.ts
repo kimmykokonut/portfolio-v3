@@ -11,7 +11,7 @@ const CONFIG = {
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 8, 
+        limit: 10, 
         exclude: {
           forks: false, 
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -35,12 +35,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          // title: 'Project Name',
-          // description:
-          //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          // imageUrl:
-          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          // link: 'https://example.com',
+          title: 'Garden Guardian',
+          description:
+            'A garden tracker rebuilt with Typescript, React, PostgreSQL, C# ASP.NET WebApi',
+          imageUrl:
+            'https://garden-client.onrender.com/assets/bg--gtvbhDK.jpg',
+          link: 'https://garden-client.onrender.com/',
+        },
+        {
+          title: 'Sound  Check',
+          description:
+            'An application where a user can sign in, find and save concerts by location and post comments to a forum',
+          imageUrl:
+            'https://raw.githubusercontent.com/kimmykokonut/sound-check/main/src/assets/page.png',
+          link: 'https://sound-check.netlify.app/',
         }
       ],
     },
@@ -119,7 +127,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'Epicodus',
-      degree: 'Certificate',
+      degree: 'Certificate of Web and Mobile Development',
       from: '2023',
       to: '2024',
     },
@@ -155,7 +163,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'fantasy',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
