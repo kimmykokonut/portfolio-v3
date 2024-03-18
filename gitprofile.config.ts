@@ -135,12 +135,13 @@ const CONFIG = {
     {
       institution: 'University of Connecticut',
       degree: 'Bachelor Science',
-      year: '2023'
+      from: '',
+      to: '2003',
     },
   ],
   publications: [
     {
-      //title: 'About Me',
+      title: '',
       // conferenceName: '',
       // journalName: 'Journal Name',
       // authors: 'John Doe, Jane Smith',
