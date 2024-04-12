@@ -49,7 +49,7 @@ const CONFIG = {
             'An application about dumplings built to learn Python, Django and Postgres.  React front end.',
           imageUrl:
             'https://raw.githubusercontent.com/kimmykokonut/dumpling-client/main/src/assets/images/signin.png',
-          link: 'https://github.com/kimmykokonut/dumpling-client/blob/main/src/assets/images/signin.png',
+          link: 'https://dumpling-atlas.netlify.app/',
         },
         {
           title: 'Garden Guardian',
