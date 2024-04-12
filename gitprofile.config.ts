@@ -14,7 +14,7 @@ const CONFIG = {
         limit: 10, 
         exclude: {
           forks: false, 
-          projects: ['kimmykokonut/beyondTippingBackup', 'kimmykokonut/rp-log', 'kimmykokonut/whiteboard-practice'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -167,7 +167,7 @@ const CONFIG = {
       // authors: 'John Doe, Jane Smith',
       // link: 'https://example.com'
       description:
-        "Hailing from New England with strong opinions about pizza and bagels, currently rooted in the Pacific NW. A Portland based full-stack software engineer, blending my background of natural sciences and the culinary world into a unique recipe for problem-solving. With a dash of creativity from the kitchen and a sprinkle of analytical thinking from the sciences, I cook up innovative solutions in the tech space. In my downtime, you'll find me exploring the great outdoors or experimenting with new recipes.  I most recently completed Epicodus' full-stack programming bootcamp, honing my technical and collaborative skills.",
+        'Hailing from New England with strong opinions about pizza and bagels, currently rooted in the Pacific NW. A Portland based full-stack software engineer, blending my background of natural sciences and the culinary world into a unique recipe for problem-solving. With a dash of creativity from the kitchen and a sprinkle of analytical thinking from the sciences, I cook up innovative solutions in the tech space. In my downtime, you\'ll find me exploring the great outdoors or experimenting with new recipes.  I most recently completed Epicodus\' full-stack programming bootcamp, honing my technical and collaborative skills.',
     }
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -223,7 +223,7 @@ const CONFIG = {
       // 'dracula',
       // 'cmyk',
       // 'autumn',
-      // 'business',
+      'business',
       // 'acid',
       // 'lemonade',
       // 'night',
@@ -247,7 +247,7 @@ const CONFIG = {
     },
   },
 
-  // Optional Footer. Supports plain text or HTML.
+  //Optional Footer. Supports plain text or HTML.
   // footer: `Made with <a 
   //     class="text-primary" href="https://github.com/arifszn/gitprofile"
   //     target="_blank"

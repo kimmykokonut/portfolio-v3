@@ -3,10 +3,10 @@ import { DEFAULT_CUSTOM_THEME } from '../constants/default-custom-theme';
 import { DEFAULT_THEMES } from '../constants/default-themes';
 import {
   SanitizedConfig,
-  SanitizedHotjar,
   SanitizedThemeConfig,
 } from '../interfaces/sanitized-config';
-import { hotjar } from 'react-hotjar';
+// SanitizedHotjar, (removed from above import)
+//import { hotjar } from 'react-hotjar';
 import colors from '../data/colors.json';
 
 export const isDarkishTheme = (appliedTheme: string): boolean => {
@@ -206,12 +206,12 @@ export const skeleton = ({
   return <div className={classNames.join(' ')} style={style} />;
 };
 
-export const setupHotjar = (hotjarConfig: SanitizedHotjar): void => {
-  if (hotjarConfig?.id) {
-    const snippetVersion = hotjarConfig?.snippetVersion || 6;
-    hotjar.initialize(parseInt(hotjarConfig.id), snippetVersion);
-  }
-};
+// export const setupHotjar = (hotjarConfig: SanitizedHotjar): void => {
+//   if (hotjarConfig?.id) {
+//     const snippetVersion = hotjarConfig?.snippetVersion || 6;
+//     hotjar.initialize(parseInt(hotjarConfig.id), snippetVersion);
+//   }
+// };
 
 export const ga = {
   event(action: string, params: EventParams): void {

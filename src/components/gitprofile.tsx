@@ -10,7 +10,8 @@ import {
 } from '../constants/errors';
 import { HelmetProvider } from 'react-helmet-async';
 import '../assets/index.css';
-import { getInitialTheme, getSanitizedConfig, setupHotjar } from '../utils';
+import { getInitialTheme, getSanitizedConfig } from '../utils';
+// setupHotjar (removed from above import)
 import { SanitizedConfig } from '../interfaces/sanitized-config';
 import ErrorPage from './error-page';
 import HeadTagEditor from './head-tag-editor';
@@ -136,7 +137,7 @@ const GitProfile = ({ config }: { config: Config }) => {
     } else {
       setError(null);
       setTheme(getInitialTheme(sanitizedConfig.themeConfig));
-      setupHotjar(sanitizedConfig.hotjar);
+      //setupHotjar(sanitizedConfig.hotjar);
       loadData();
     }
   }, [sanitizedConfig, loadData]);

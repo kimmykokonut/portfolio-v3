@@ -30,6 +30,7 @@ export default defineConfig({
               name: 'Portfolio',
               short_name: 'Portfolio',
               description: 'Personal Portfolio',
+              theme_color: '#333333',
               icons: [
                 {
                   src: 'logo.png',
