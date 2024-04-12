@@ -14,17 +14,19 @@ const CONFIG = {
         limit: 10, 
         exclude: {
           forks: false, 
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['kimmykokonut/beyondTippingBackup', 'kimmykokonut/rp-log', 'kimmykokonut/whiteboard-practice'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         projects: [
+          'kimmykokonut/beyondtipping',
+          'kimmykokonut/dumpling-client',
+          'kimmykokonut/dumpling-api',
           'kimmykokonut/Garden-guardian', 'kimmykokonut/Park-Api',
+          'kimmykokonut/my-portfolio',
           'kimmykokonut/myco-matrix-api',
-          'kimmykokonut/Pierre.Solution',
           'kimmykokonut/sound-check',
           'kimmykokonut/inventory-tracker-cra-redux',
-          'kimmykokonut/HairSalon.Solution',
           'kimmykokonut/cooking-compendium'
         ],
       },
@@ -33,6 +35,22 @@ const CONFIG = {
       header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
+        {
+          title: 'Beyond Tipping',
+          description:
+            'Find Portland restaurants that have pay workers a living wage and have abandoned the tipping model. A team project built in 4 days with Typescript, React, Python, Flask and SQLite',
+          imageUrl:
+            'https://raw.githubusercontent.com/henry-oberholtzer/beyondtipping/dev/src/assets/img/home.png',
+          link: 'https://github.com/kimmykokonut/beyondtipping',
+        },
+        {
+          title: 'Dumpling Truck',
+          description:
+            'An application about dumplings built to learn Python, Django and Postgres.  React front end.',
+          imageUrl:
+            'https://raw.githubusercontent.com/kimmykokonut/dumpling-client/main/src/assets/images/signin.png',
+          link: 'https://github.com/kimmykokonut/dumpling-client/blob/main/src/assets/images/signin.png',
+        },
         {
           title: 'Garden Guardian',
           description:
@@ -72,7 +90,7 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '',
-    email: 'kimmykokonut@gmail.com',
+    email: '',
   },
   resume: {
     fileUrl:
@@ -90,6 +108,9 @@ const CONFIG = {
     'Git',
     'C#',
     'ASP.NET',
+    'Python',
+    'Django',
+    'Flask',
     'Webpack',
     'HTML',
     'CSS',
@@ -133,20 +154,20 @@ const CONFIG = {
     },
     {
       institution: 'University of Connecticut',
-      degree: 'Bachelor Science',
+      degree: 'B.S. Natural Resources Management and Engineering, minor: Spanish',
       from: '',
-      to: '2003',
+      to: '',
     },
   ],
   publications: [
     {
-      title: 'test',
+      title: 'Amateur mycologist and full-stack software developer',
       // conferenceName: '',
       // journalName: 'Journal Name',
       // authors: 'John Doe, Jane Smith',
       // link: 'https://example.com'
       description:
-        'Hailing from New England with strong opinions about pizza and bagels, currently rooted in the Pacific NW.  My science background is rounded with a joy of baking, travel, and time in the nearby National forests.  I most recently completed the Epicodus full-stack programming bootcamp, honing my technical and collaborative skills.  I bring a unique perspective to the tech world with my adaptable and problem-solving nature.',
+        "Hailing from New England with strong opinions about pizza and bagels, currently rooted in the Pacific NW. A Portland based full-stack software engineer, blending my background of natural sciences and the culinary world into a unique recipe for problem-solving. With a dash of creativity from the kitchen and a sprinkle of analytical thinking from the sciences, I cook up innovative solutions in the tech space. In my downtime, you'll find me exploring the great outdoors or experimenting with new recipes.  I most recently completed Epicodus' full-stack programming bootcamp, honing my technical and collaborative skills.",
     }
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -164,11 +185,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'fantasy',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -181,37 +202,37 @@ const CONFIG = {
     themes: [
       'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'procyon',
+      // 'cupcake',
+      // 'bumblebee',
+      // 'emerald',
+      // 'corporate',
+      // 'synthwave',
+      // 'retro',
+      // 'cyberpunk',
+      // 'valentine',
+      // 'halloween',
+      // 'garden',
+      // 'forest',
+      // 'aqua',
+      // 'lofi',
+      // 'pastel',
+      // 'fantasy',
+      // 'wireframe',
+      // 'black',
+      // 'luxury',
+      // 'dracula',
+      // 'cmyk',
+      // 'autumn',
+      // 'business',
+      // 'acid',
+      // 'lemonade',
+      // 'night',
+      // 'coffee',
+      // 'winter',
+      // 'dim',
+      // 'nord',
+      // 'sunset',
+      // 'procyon',
     ],
 
     // Custom theme, applied to `procyon` theme
@@ -227,11 +248,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
