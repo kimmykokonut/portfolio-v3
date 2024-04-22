@@ -140,7 +140,7 @@ const CONFIG = {
   certifications: [
     {
       name: 'Web and Mobile Development',
-      body: '760 classroom hours, 120 capstone hours, 150 internship hours',
+      body: '1000 classroom hours, 120 capstone hours, 150 internship hours',
       year: 'March 2024',
       link: 'https://www.epicodus.com/',
     },
