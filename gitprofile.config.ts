@@ -11,7 +11,7 @@ const CONFIG = {
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 10, 
+        limit: 12, 
         exclude: {
           forks: false, 
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -27,7 +27,7 @@ const CONFIG = {
           'kimmykokonut/myco-matrix-api',
           'kimmykokonut/sound-check',
           'kimmykokonut/inventory-tracker-cra-redux',
-          'kimmykokonut/cooking-compendium'
+          'kimmykokonut/cooking-compendium', 'kimmykokonut/Pierre.Solution', 'kimmykokonut/word-puzzle'
         ],
       },
     },
@@ -36,9 +36,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Myco Matrix',
+          description:
+            'My capstone project to streamline and automate the field trip registration and lottery process for the Mycological Society.  A user can sign in, register for field trips, connect with other members and access resources.  The individual trip pages utilizes OpenWeatherApi for weather forecast and Leaflet.js for map visualization.  Built with Python, Django, Typescript and React',
+          imageUrl:
+            'https://www.wildmushrooms.org/wp-content/uploads/2016/06/OMS-logo.png',
+          link: 'https://github.com/kimmykokonut/Capstone',
+        },
+        {
           title: 'Beyond Tipping',
           description:
-            'Find Portland restaurants that have pay workers a living wage and have abandoned the tipping model. A team project built in 4 days with Typescript, React, Python, Flask and SQLite',
+            'Find Portland restaurants that have left the tipping model. A team project built in 4 days with Typescript, React, Python, Flask and SQLite',
           imageUrl:
             'https://raw.githubusercontent.com/henry-oberholtzer/beyondtipping/dev/src/assets/img/home.png',
           link: 'https://github.com/kimmykokonut/beyondtipping',
@@ -46,7 +54,7 @@ const CONFIG = {
         {
           title: 'Dumpling Truck',
           description:
-            'An application about dumplings built to learn Python, Django and Postgres.  React front end.',
+            'An application about dumplings built to learn Python, Django and PostgreSQL. React front end is in progress.',
           imageUrl:
             'https://raw.githubusercontent.com/kimmykokonut/dumpling-client/main/src/assets/images/signin.png',
           link: 'https://dumpling-atlas.netlify.app/',
@@ -54,19 +62,11 @@ const CONFIG = {
         {
           title: 'Garden Guardian',
           description:
-            'A garden tracker rebuilt with Typescript, React, PostgreSQL, C# ASP.NET WebApi',
+            'An application where a user can create and organize their garden data by grids and track yields over time.  Built with Typescript, React, PostgreSQL and C# ASP.NET WebApi',
           imageUrl:
             'https://garden-client.onrender.com/assets/bg--gtvbhDK.jpg',
           link: 'https://garden-client.onrender.com/',
         },
-        {
-          title: 'Sound  Check',
-          description:
-            'An application where a user can sign in, find and save concerts by location and post comments to a forum',
-          imageUrl:
-            'https://raw.githubusercontent.com/kimmykokonut/sound-check/main/src/assets/page.png',
-          link: 'https://sound-check.netlify.app/',
-        }
       ],
     },
     
@@ -115,7 +115,7 @@ const CONFIG = {
     'HTML',
     'CSS',
     'Bootstrap',
-    'Tailwind',
+    'Tailwind CSS',
     'Material UI',
     'TDD: Jest, MSTest',
     'Web API',
@@ -167,7 +167,7 @@ const CONFIG = {
       // authors: 'John Doe, Jane Smith',
       // link: 'https://example.com'
       description:
-        'Hailing from New England with strong opinions about pizza and bagels, currently rooted in the Pacific NW. A Portland based full-stack software engineer, blending my background of natural sciences and the culinary world into a unique recipe for problem-solving. With a dash of creativity from the kitchen and a sprinkle of analytical thinking from the sciences, I cook up innovative solutions in the tech space. In my downtime, you\'ll find me exploring the great outdoors or experimenting with new recipes.  I most recently completed Epicodus\' full-stack programming bootcamp, honing my technical and collaborative skills.',
+        'Hailing from New England with strong opinions about pizza and bagels, currently rooted in the Pacific NW. A Portland based full-stack software engineer, blending background of natural sciences and the culinary world into a unique recipe for problem-solving. With a dash of creativity from the kitchen and a sprinkle of analytical thinking from the sciences, I cook up innovative solutions in the tech space. In my downtime, you\'ll find me exploring the great outdoors or experimenting with new recipes.  I most recently completed Epicodus\' full-stack programming bootcamp, honing my technical and collaborative skills.',
     }
   ],
   // Display articles from your medium or dev account. (Optional)
