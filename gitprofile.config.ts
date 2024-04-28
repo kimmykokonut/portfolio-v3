@@ -46,7 +46,7 @@ const CONFIG = {
         {
           title: 'Beyond Tipping',
           description:
-            'Find Portland restaurants that have left the tipping model. A team project built in 4 days with Typescript, React, Python, Flask and SQLite',
+            'Find Portland restaurants that have left the tipping model. A team project built in 4 days with Typescript, React, Tailwind CSS Python, Flask and SQLite',
           imageUrl:
             'https://raw.githubusercontent.com/henry-oberholtzer/beyondtipping/dev/src/assets/img/home.png',
           link: 'https://github.com/kimmykokonut/beyondtipping',
@@ -54,7 +54,7 @@ const CONFIG = {
         {
           title: 'Dumpling Truck',
           description:
-            'An application about dumplings built to learn Python, Django and PostgreSQL. React front end is in progress.',
+            'A full-stack application about dumplings built to learn Python, Django and PostgreSQL.  Database utilizes one to many and many to many relationships. React front end is in progress.',
           imageUrl:
             'https://raw.githubusercontent.com/kimmykokonut/dumpling-client/main/src/assets/images/signin.png',
           link: 'https://dumpling-atlas.netlify.app/',
