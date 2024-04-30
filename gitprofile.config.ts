@@ -38,7 +38,7 @@ const CONFIG = {
         {
           title: 'Myco Matrix',
           description:
-            'My capstone project to streamline and automate the field trip registration and lottery process for the Mycological Society.  A user can sign in, register for field trips, connect with other members and access resources.  The individual trip pages utilizes OpenWeatherApi for weather forecast and Leaflet.js for map visualization.  Built with Python, Django, Typescript and React',
+            'My capstone project to streamline and automate the field trip registration and lottery process for the Mycological Society.  A user can sign in, register for field trips, connect with other members and access resources.  The individual trip pages utilizes OpenWeatherApi for weather forecast and Leaflet.js for map visualization.  Built with Python, Django, Typescript and React. Deployment in progress',
           imageUrl:
             'https://www.wildmushrooms.org/wp-content/uploads/2016/06/OMS-logo.png',
           link: 'https://github.com/kimmykokonut/Capstone',
@@ -185,7 +185,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'fantasy',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -216,20 +216,20 @@ const CONFIG = {
       // 'aqua',
       // 'lofi',
       // 'pastel',
-      // 'fantasy',
+      'fantasy',
       // 'wireframe',
       // 'black',
       // 'luxury',
       // 'dracula',
       // 'cmyk',
       // 'autumn',
-      'business',
+      //'business',
       // 'acid',
       // 'lemonade',
       // 'night',
       // 'coffee',
       // 'winter',
-      // 'dim',
+      'dim',
       // 'nord',
       // 'sunset',
       // 'procyon',
