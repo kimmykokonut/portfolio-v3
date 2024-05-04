@@ -38,15 +38,15 @@ const CONFIG = {
         {
           title: 'Myco Matrix',
           description:
-            'My capstone project to streamline and automate the field trip registration and lottery process for the Mycological Society.  A user can sign in, register for field trips, connect with other members and access resources.  The individual trip pages utilizes OpenWeatherApi for weather forecast and Leaflet.js for map visualization.  Built with Python, Django, Typescript and React. Deployment in progress',
+            'My capstone project to streamline and automate the field trip registration and lottery process for the Mycological Society.  A user can sign in, register for field trips, connect with other members and access resources.  Lottery is automated to choose particpants and email service is automated to let members know their status and the leader is provided a roster for the day.  The individual trip page utilizes OpenWeatherApi for weather forecast and Leaflet.js for map visualization.  Built with Python, Django, Typescript and React. Deployed on Render',
           imageUrl:
-            'https://www.wildmushrooms.org/wp-content/uploads/2016/06/OMS-logo.png',
-          link: 'https://github.com/kimmykokonut/Capstone',
+            'https://github.com/kimmykokonut/Capstone/blob/main/client/src/assets/images/register.png',
+          link: 'https://myco.onrender.com/',
         },
         {
           title: 'Beyond Tipping',
           description:
-            'Find Portland restaurants that have left the tipping model. A team project built in 4 days with Typescript, React, Tailwind CSS Python, Flask and SQLite',
+            'Find Portland restaurants that have left the tipping model. A team project built in 4 days with Typescript, React, Tailwind CSS Python, Flask and SQLite.  My contributions include building the backend, API endpoints, connecting client side to webpapi and documenting the process in the Readme file',
           imageUrl:
             'https://raw.githubusercontent.com/henry-oberholtzer/beyondtipping/dev/src/assets/img/home.png',
           link: 'https://github.com/kimmykokonut/beyondtipping',
