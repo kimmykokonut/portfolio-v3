@@ -40,7 +40,7 @@ const CONFIG = {
           description:
             'My capstone project to streamline and automate the field trip registration and lottery process for the Mycological Society.  A user can sign in, register for field trips, connect with other members and access resources.  Lottery is automated to choose particpants and email service is automated to let members know their status and the leader is provided a roster for the day.  The individual trip page utilizes OpenWeatherApi for weather forecast and Leaflet.js for map visualization.  Built with Python, Django, Typescript and React. Deployed on Render',
           imageUrl:
-            'https://github.com/kimmykokonut/Capstone/blob/main/client/src/assets/images/register.png',
+            'https://raw.githubusercontent.com/kimmykokonut/Capstone/main/client/src/assets/images/signIn.png',
           link: 'https://myco.onrender.com/',
         },
         {
